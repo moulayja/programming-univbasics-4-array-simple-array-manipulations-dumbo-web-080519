@@ -3,5 +3,5 @@ def using_push(array, element)
 end
 
 def using_unshift(array, element)
-  using_unshift.unshift(element)
+  array.unshift(element)
 end
